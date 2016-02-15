@@ -1,0 +1,10 @@
+(module 3.2_via_mounting locked (layer F.Cu) (tedit 51E2FAF7)
+  (fp_text reference "3.2 hole" (at -0.09906 -4.09956) (layer F.SilkS) hide
+    (effects (font (size 0.6985 0.79756) (thickness 0.12446)))
+  )
+  (fp_text value VAL** (at 0 4.20116) (layer F.SilkS) hide
+    (effects (font (size 0.6985 0.79756) (thickness 0.12446)))
+  )
+  (fp_circle (center 0 0) (end 2.95 1.15) (layer F.SilkS) (width 0.2))
+  (pad 1 thru_hole circle (at -0.00254 0) (size 5.99948 5.99948) (drill 3.2004) (layers *.Cu *.Mask))
+)
