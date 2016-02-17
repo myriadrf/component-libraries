@@ -1,0 +1,13 @@
+(module R_SM0402 (layer F.Cu) (tedit 51DD770C)
+  (solder_mask_margin 0.09906)
+  (clearance 0.09906)
+  (fp_text reference R? (at 0 -0.65) (layer F.SilkS)
+    (effects (font (size 0.4953 0.39878) (thickness 0.09906)))
+  )
+  (fp_text value VAL** (at 0.20066 0.8001) (layer F.SilkS) hide
+    (effects (font (size 0.4953 0.4953) (thickness 0.12446)))
+  )
+  (fp_line (start 0 -0.19812) (end 0 0.19812) (layer F.SilkS) (width 0.2))
+  (pad 1 smd rect (at -0.4699 0) (size 0.4445 0.4953) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.4699 0) (size 0.4445 0.4953) (layers F.Cu F.Paste F.Mask))
+)
